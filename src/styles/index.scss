@@ -1,7 +1,6 @@
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter.ttf');
-}
 
+@import 'fonts';
 @import 'variables';
 @import 'scaffolding';
+@import "bootstrap/scss/bootstrap.scss";
+@import 'bootstrap-icons/font/bootstrap-icons.css';

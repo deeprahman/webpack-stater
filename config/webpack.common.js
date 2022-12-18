@@ -55,6 +55,16 @@ module.exports = {
 
       // Fonts and SVGs: Inline files
       { test: /\.(woff(2)?|eot|ttf|otf|svg|)$/, type: 'asset/inline' },
+      {
+        test: /\.(html)$/,
+        include: paths.src + '/views/',
+        use: {
+          loader: 'html-loader',
+          options: {
+            interpolate: true
+          }
+        }
+      }
     ],
   },
 
