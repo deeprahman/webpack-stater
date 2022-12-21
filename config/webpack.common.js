@@ -13,8 +13,11 @@ module.exports = {
     path: paths.build,
     filename: '[name].bundle.js',
     publicPath: '/',
-  },
 
+  },
+  // externals: {
+  //   jquery: 'jQuery',
+  // },
   // Customize the webpack build process
   plugins: [
     // Removes/cleans build folders and unused assets when rebuilding
